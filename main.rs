@@ -11,11 +11,14 @@ fn main() {
     println!("Human has an cow, with name {}.", animal.name);
     another::new();
 } 
+
 #[derive(Debug)]
 enum Gender {
     Male,
     Famale,
 }
+
+// Human struct defination
 struct Human {
     name: String,
     age: i32,
