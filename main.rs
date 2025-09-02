@@ -16,3 +16,7 @@ struct Human {
     age: i32,
     gender: Gender 
 }
+
+struct Animal {
+    name: String,
+}
